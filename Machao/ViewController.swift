@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         let key = MaCoreTest.secret_key
         
         print(key)
+        
+        print("Machao")
     }
 
 

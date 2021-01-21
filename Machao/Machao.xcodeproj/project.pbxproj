@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0952A379908C733D4E302567 /* Pods_Machao_MachaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CBCCD43E3839C6BC9DCADA /* Pods_Machao_MachaoUITests.framework */; };
+		460041999908663928DA4FB4 /* Pods_Machao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEA11ECA1C29DB3FE2CE36 /* Pods_Machao.framework */; };
+		746A8515272A7CB12624F1E3 /* Pods_MachaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD53F8A857D1E00CB87E6CD /* Pods_MachaoTests.framework */; };
+		A6440C582588A161001DE999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C572588A161001DE999 /* AppDelegate.swift */; };
+		A6440C5A2588A161001DE999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C592588A161001DE999 /* SceneDelegate.swift */; };
+		A6440C5C2588A161001DE999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C5B2588A161001DE999 /* ViewController.swift */; };
+		A6440C5F2588A161001DE999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6440C5D2588A161001DE999 /* Main.storyboard */; };
+		A6440C622588A161001DE999 /* Machao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6440C602588A161001DE999 /* Machao.xcdatamodeld */; };
+		A6440C642588A161001DE999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6440C632588A161001DE999 /* Assets.xcassets */; };
+		A6440C672588A161001DE999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6440C652588A161001DE999 /* LaunchScreen.storyboard */; };
+		A6440C722588A162001DE999 /* MachaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C712588A162001DE999 /* MachaoTests.swift */; };
+		A6440C7D2588A162001DE999 /* MachaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C7C2588A162001DE999 /* MachaoUITests.swift */; };
+		A6440EBB2588ABCA001DE999 /* MaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6440EB82588ABCA001DE999 /* MaCore.framework */; };
+		A6440EBC2588ABCA001DE999 /* MaCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6440EB82588ABCA001DE999 /* MaCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6440C6E2588A162001DE999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6440C4C2588A161001DE999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6440C532588A161001DE999;
+			remoteInfo = Machao;
+		};
+		A6440C792588A162001DE999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6440C4C2588A161001DE999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6440C532588A161001DE999;
+			remoteInfo = Machao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6440D742588A5F0001DE999 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6440EBC2588ABCA001DE999 /* MaCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47CBCCD43E3839C6BC9DCADA /* Pods_Machao_MachaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machao_MachaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD53F8A857D1E00CB87E6CD /* Pods_MachaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MachaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5338A450BBF4307FDAF5388F /* Pods-Machao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao.release.xcconfig"; path = "Target Support Files/Pods-Machao/Pods-Machao.release.xcconfig"; sourceTree = "<group>"; };
+		5AE5DABAF79A0474FD1A843D /* Pods-Machao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao.debug.xcconfig"; path = "Target Support Files/Pods-Machao/Pods-Machao.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCEA11ECA1C29DB3FE2CE36 /* Pods_Machao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D1D152776B429F6CBC024C /* Pods-MachaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MachaoTests.release.xcconfig"; path = "Target Support Files/Pods-MachaoTests/Pods-MachaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6440C542588A161001DE999 /* Machao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440C572588A161001DE999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6440C592588A161001DE999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6440C5B2588A161001DE999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6440C5E2588A161001DE999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6440C612588A161001DE999 /* Machao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Machao.xcdatamodel; sourceTree = "<group>"; };
+		A6440C632588A161001DE999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6440C662588A161001DE999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6440C682588A161001DE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6440C6D2588A162001DE999 /* MachaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440C712588A162001DE999 /* MachaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachaoTests.swift; sourceTree = "<group>"; };
+		A6440C732588A162001DE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6440C782588A162001DE999 /* MachaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440C7C2588A162001DE999 /* MachaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachaoUITests.swift; sourceTree = "<group>"; };
+		A6440C7E2588A162001DE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6440E4C2588AB26001DE999 /* MaService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440EB72588ABCA001DE999 /* MaBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440EB82588ABCA001DE999 /* MaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638F036C6A5DEE829CC857F /* Pods-Machao-MachaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao-MachaoUITests.release.xcconfig"; path = "Target Support Files/Pods-Machao-MachaoUITests/Pods-Machao-MachaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8A48F38415C5F5C6BA536FA /* Pods-MachaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MachaoTests.debug.xcconfig"; path = "Target Support Files/Pods-MachaoTests/Pods-MachaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E805D2AE73168ED89EE935FA /* Pods-Machao-MachaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao-MachaoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Machao-MachaoUITests/Pods-Machao-MachaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6440C512588A161001DE999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460041999908663928DA4FB4 /* Pods_Machao.framework in Frameworks */,
+				A6440EBB2588ABCA001DE999 /* MaCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6440C6A2588A162001DE999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746A8515272A7CB12624F1E3 /* Pods_MachaoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6440C752588A162001DE999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0952A379908C733D4E302567 /* Pods_Machao_MachaoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015C45F2EDF5BFCE4CD05DA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AE5DABAF79A0474FD1A843D /* Pods-Machao.debug.xcconfig */,
+				5338A450BBF4307FDAF5388F /* Pods-Machao.release.xcconfig */,
+				E805D2AE73168ED89EE935FA /* Pods-Machao-MachaoUITests.debug.xcconfig */,
+				D638F036C6A5DEE829CC857F /* Pods-Machao-MachaoUITests.release.xcconfig */,
+				D8A48F38415C5F5C6BA536FA /* Pods-MachaoTests.debug.xcconfig */,
+				96D1D152776B429F6CBC024C /* Pods-MachaoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6440C4B2588A161001DE999 = {
+			isa = PBXGroup;
+			children = (
+				A6440C562588A161001DE999 /* Machao */,
+				A6440C702588A162001DE999 /* MachaoTests */,
+				A6440C7B2588A162001DE999 /* MachaoUITests */,
+				A6440C552588A161001DE999 /* Products */,
+				015C45F2EDF5BFCE4CD05DA7 /* Pods */,
+				B2F5A2BFBF786F1AD7C730C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6440C552588A161001DE999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6440C542588A161001DE999 /* Machao.app */,
+				A6440C6D2588A162001DE999 /* MachaoTests.xctest */,
+				A6440C782588A162001DE999 /* MachaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6440C562588A161001DE999 /* Machao */ = {
+			isa = PBXGroup;
+			children = (
+				A6440C572588A161001DE999 /* AppDelegate.swift */,
+				A6440C592588A161001DE999 /* SceneDelegate.swift */,
+				A6440C5B2588A161001DE999 /* ViewController.swift */,
+				A6440C5D2588A161001DE999 /* Main.storyboard */,
+				A6440C632588A161001DE999 /* Assets.xcassets */,
+				A6440C652588A161001DE999 /* LaunchScreen.storyboard */,
+				A6440C682588A161001DE999 /* Info.plist */,
+				A6440C602588A161001DE999 /* Machao.xcdatamodeld */,
+			);
+			path = Machao;
+			sourceTree = "<group>";
+		};
+		A6440C702588A162001DE999 /* MachaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6440C712588A162001DE999 /* MachaoTests.swift */,
+				A6440C732588A162001DE999 /* Info.plist */,
+			);
+			path = MachaoTests;
+			sourceTree = "<group>";
+		};
+		A6440C7B2588A162001DE999 /* MachaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6440C7C2588A162001DE999 /* MachaoUITests.swift */,
+				A6440C7E2588A162001DE999 /* Info.plist */,
+			);
+			path = MachaoUITests;
+			sourceTree = "<group>";
+		};
+		B2F5A2BFBF786F1AD7C730C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6440EB72588ABCA001DE999 /* MaBase.framework */,
+				A6440EB82588ABCA001DE999 /* MaCore.framework */,
+				A6440E4C2588AB26001DE999 /* MaService.framework */,
+				8FCEA11ECA1C29DB3FE2CE36 /* Pods_Machao.framework */,
+				47CBCCD43E3839C6BC9DCADA /* Pods_Machao_MachaoUITests.framework */,
+				4AD53F8A857D1E00CB87E6CD /* Pods_MachaoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6440C532588A161001DE999 /* Machao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6440C812588A162001DE999 /* Build configuration list for PBXNativeTarget "Machao" */;
+			buildPhases = (
+				616D341A287C4DA7F5D76E66 /* [CP] Check Pods Manifest.lock */,
+				A6440C502588A161001DE999 /* Sources */,
+				A6440C512588A161001DE999 /* Frameworks */,
+				A6440C522588A161001DE999 /* Resources */,
+				A6440D742588A5F0001DE999 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Machao;
+			productName = Machao;
+			productReference = A6440C542588A161001DE999 /* Machao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6440C6C2588A162001DE999 /* MachaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6440C842588A162001DE999 /* Build configuration list for PBXNativeTarget "MachaoTests" */;
+			buildPhases = (
+				1A0A52E999717AE3365221E2 /* [CP] Check Pods Manifest.lock */,
+				A6440C692588A162001DE999 /* Sources */,
+				A6440C6A2588A162001DE999 /* Frameworks */,
+				A6440C6B2588A162001DE999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6440C6F2588A162001DE999 /* PBXTargetDependency */,
+			);
+			name = MachaoTests;
+			productName = MachaoTests;
+			productReference = A6440C6D2588A162001DE999 /* MachaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6440C772588A162001DE999 /* MachaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6440C872588A162001DE999 /* Build configuration list for PBXNativeTarget "MachaoUITests" */;
+			buildPhases = (
+				F60B55A9427BB52DCBA3E065 /* [CP] Check Pods Manifest.lock */,
+				A6440C742588A162001DE999 /* Sources */,
+				A6440C752588A162001DE999 /* Frameworks */,
+				A6440C762588A162001DE999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6440C7A2588A162001DE999 /* PBXTargetDependency */,
+			);
+			name = MachaoUITests;
+			productName = MachaoUITests;
+			productReference = A6440C782588A162001DE999 /* MachaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6440C4C2588A161001DE999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A6440C532588A161001DE999 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A6440C6C2588A162001DE999 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A6440C532588A161001DE999;
+					};
+					A6440C772588A162001DE999 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A6440C532588A161001DE999;
+					};
+				};
+			};
+			buildConfigurationList = A6440C4F2588A161001DE999 /* Build configuration list for PBXProject "Machao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6440C4B2588A161001DE999;
+			productRefGroup = A6440C552588A161001DE999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6440C532588A161001DE999 /* Machao */,
+				A6440C6C2588A162001DE999 /* MachaoTests */,
+				A6440C772588A162001DE999 /* MachaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6440C522588A161001DE999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6440C672588A161001DE999 /* LaunchScreen.storyboard in Resources */,
+				A6440C642588A161001DE999 /* Assets.xcassets in Resources */,
+				A6440C5F2588A161001DE999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6440C6B2588A162001DE999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6440C762588A162001DE999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0A52E999717AE3365221E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MachaoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		616D341A287C4DA7F5D76E66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60B55A9427BB52DCBA3E065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machao-MachaoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6440C502588A161001DE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6440C622588A161001DE999 /* Machao.xcdatamodeld in Sources */,
+				A6440C5C2588A161001DE999 /* ViewController.swift in Sources */,
+				A6440C582588A161001DE999 /* AppDelegate.swift in Sources */,
+				A6440C5A2588A161001DE999 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6440C692588A162001DE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6440C722588A162001DE999 /* MachaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6440C742588A162001DE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6440C7D2588A162001DE999 /* MachaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6440C6F2588A162001DE999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6440C532588A161001DE999 /* Machao */;
+			targetProxy = A6440C6E2588A162001DE999 /* PBXContainerItemProxy */;
+		};
+		A6440C7A2588A162001DE999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6440C532588A161001DE999 /* Machao */;
+			targetProxy = A6440C792588A162001DE999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6440C5D2588A161001DE999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6440C5E2588A161001DE999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6440C652588A161001DE999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6440C662588A161001DE999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6440C7F2588A162001DE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6440C802588A162001DE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6440C822588A162001DE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE5DABAF79A0474FD1A843D /* Pods-Machao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Machao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.Machao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A6440C832588A162001DE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5338A450BBF4307FDAF5388F /* Pods-Machao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Machao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.Machao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A6440C852588A162001DE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A48F38415C5F5C6BA536FA /* Pods-MachaoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MachaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.MachaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Machao.app/Machao";
+			};
+			name = Debug;
+		};
+		A6440C862588A162001DE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D1D152776B429F6CBC024C /* Pods-MachaoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MachaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.MachaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Machao.app/Machao";
+			};
+			name = Release;
+		};
+		A6440C882588A162001DE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E805D2AE73168ED89EE935FA /* Pods-Machao-MachaoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MachaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.MachaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Machao;
+			};
+			name = Debug;
+		};
+		A6440C892588A162001DE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D638F036C6A5DEE829CC857F /* Pods-Machao-MachaoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MachaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.MachaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Machao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6440C4F2588A161001DE999 /* Build configuration list for PBXProject "Machao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6440C7F2588A162001DE999 /* Debug */,
+				A6440C802588A162001DE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6440C812588A162001DE999 /* Build configuration list for PBXNativeTarget "Machao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6440C822588A162001DE999 /* Debug */,
+				A6440C832588A162001DE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6440C842588A162001DE999 /* Build configuration list for PBXNativeTarget "MachaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6440C852588A162001DE999 /* Debug */,
+				A6440C862588A162001DE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6440C872588A162001DE999 /* Build configuration list for PBXNativeTarget "MachaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6440C882588A162001DE999 /* Debug */,
+				A6440C892588A162001DE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6440C602588A161001DE999 /* Machao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6440C612588A161001DE999 /* Machao.xcdatamodel */,
+			);
+			currentVersion = A6440C612588A161001DE999 /* Machao.xcdatamodel */;
+			path = Machao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6440C4C2588A161001DE999 /* Project object */;
+}

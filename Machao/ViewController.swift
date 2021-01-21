@@ -6,12 +6,15 @@
 //
 
 import UIKit
+import MaCore
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let key = MaCoreTest.secret_key
+        
+        print(key)
     }
 
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0952A379908C733D4E302567 /* Pods_Machao_MachaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CBCCD43E3839C6BC9DCADA /* Pods_Machao_MachaoUITests.framework */; };
+		460041999908663928DA4FB4 /* Pods_Machao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEA11ECA1C29DB3FE2CE36 /* Pods_Machao.framework */; };
+		746A8515272A7CB12624F1E3 /* Pods_MachaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD53F8A857D1E00CB87E6CD /* Pods_MachaoTests.framework */; };
 		A6440C582588A161001DE999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C572588A161001DE999 /* AppDelegate.swift */; };
 		A6440C5A2588A161001DE999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C592588A161001DE999 /* SceneDelegate.swift */; };
 		A6440C5C2588A161001DE999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C5B2588A161001DE999 /* ViewController.swift */; };
@@ -16,6 +19,8 @@
 		A6440C672588A161001DE999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6440C652588A161001DE999 /* LaunchScreen.storyboard */; };
 		A6440C722588A162001DE999 /* MachaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C712588A162001DE999 /* MachaoTests.swift */; };
 		A6440C7D2588A162001DE999 /* MachaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6440C7C2588A162001DE999 /* MachaoUITests.swift */; };
+		A6440EBB2588ABCA001DE999 /* MaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6440EB82588ABCA001DE999 /* MaCore.framework */; };
+		A6440EBC2588ABCA001DE999 /* MaCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6440EB82588ABCA001DE999 /* MaCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A6440D742588A5F0001DE999 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6440EBC2588ABCA001DE999 /* MaCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		47CBCCD43E3839C6BC9DCADA /* Pods_Machao_MachaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machao_MachaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD53F8A857D1E00CB87E6CD /* Pods_MachaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MachaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5338A450BBF4307FDAF5388F /* Pods-Machao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao.release.xcconfig"; path = "Target Support Files/Pods-Machao/Pods-Machao.release.xcconfig"; sourceTree = "<group>"; };
+		5AE5DABAF79A0474FD1A843D /* Pods-Machao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao.debug.xcconfig"; path = "Target Support Files/Pods-Machao/Pods-Machao.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCEA11ECA1C29DB3FE2CE36 /* Pods_Machao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D1D152776B429F6CBC024C /* Pods-MachaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MachaoTests.release.xcconfig"; path = "Target Support Files/Pods-MachaoTests/Pods-MachaoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6440C542588A161001DE999 /* Machao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6440C572588A161001DE999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6440C592588A161001DE999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +76,12 @@
 		A6440C782588A162001DE999 /* MachaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6440C7C2588A162001DE999 /* MachaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachaoUITests.swift; sourceTree = "<group>"; };
 		A6440C7E2588A162001DE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6440E4C2588AB26001DE999 /* MaService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440EB72588ABCA001DE999 /* MaBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6440EB82588ABCA001DE999 /* MaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638F036C6A5DEE829CC857F /* Pods-Machao-MachaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao-MachaoUITests.release.xcconfig"; path = "Target Support Files/Pods-Machao-MachaoUITests/Pods-Machao-MachaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8A48F38415C5F5C6BA536FA /* Pods-MachaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MachaoTests.debug.xcconfig"; path = "Target Support Files/Pods-MachaoTests/Pods-MachaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E805D2AE73168ED89EE935FA /* Pods-Machao-MachaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machao-MachaoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Machao-MachaoUITests/Pods-Machao-MachaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460041999908663928DA4FB4 /* Pods_Machao.framework in Frameworks */,
+				A6440EBB2588ABCA001DE999 /* MaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A8515272A7CB12624F1E3 /* Pods_MachaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0952A379908C733D4E302567 /* Pods_Machao_MachaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015C45F2EDF5BFCE4CD05DA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AE5DABAF79A0474FD1A843D /* Pods-Machao.debug.xcconfig */,
+				5338A450BBF4307FDAF5388F /* Pods-Machao.release.xcconfig */,
+				E805D2AE73168ED89EE935FA /* Pods-Machao-MachaoUITests.debug.xcconfig */,
+				D638F036C6A5DEE829CC857F /* Pods-Machao-MachaoUITests.release.xcconfig */,
+				D8A48F38415C5F5C6BA536FA /* Pods-MachaoTests.debug.xcconfig */,
+				96D1D152776B429F6CBC024C /* Pods-MachaoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A6440C4B2588A161001DE999 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				A6440C702588A162001DE999 /* MachaoTests */,
 				A6440C7B2588A162001DE999 /* MachaoUITests */,
 				A6440C552588A161001DE999 /* Products */,
+				015C45F2EDF5BFCE4CD05DA7 /* Pods */,
+				B2F5A2BFBF786F1AD7C730C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +181,19 @@
 			path = MachaoUITests;
 			sourceTree = "<group>";
 		};
+		B2F5A2BFBF786F1AD7C730C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6440EB72588ABCA001DE999 /* MaBase.framework */,
+				A6440EB82588ABCA001DE999 /* MaCore.framework */,
+				A6440E4C2588AB26001DE999 /* MaService.framework */,
+				8FCEA11ECA1C29DB3FE2CE36 /* Pods_Machao.framework */,
+				47CBCCD43E3839C6BC9DCADA /* Pods_Machao_MachaoUITests.framework */,
+				4AD53F8A857D1E00CB87E6CD /* Pods_MachaoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6440C812588A162001DE999 /* Build configuration list for PBXNativeTarget "Machao" */;
 			buildPhases = (
+				616D341A287C4DA7F5D76E66 /* [CP] Check Pods Manifest.lock */,
 				A6440C502588A161001DE999 /* Sources */,
 				A6440C512588A161001DE999 /* Frameworks */,
 				A6440C522588A161001DE999 /* Resources */,
+				A6440D742588A5F0001DE999 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6440C842588A162001DE999 /* Build configuration list for PBXNativeTarget "MachaoTests" */;
 			buildPhases = (
+				1A0A52E999717AE3365221E2 /* [CP] Check Pods Manifest.lock */,
 				A6440C692588A162001DE999 /* Sources */,
 				A6440C6A2588A162001DE999 /* Frameworks */,
 				A6440C6B2588A162001DE999 /* Resources */,
@@ -173,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6440C872588A162001DE999 /* Build configuration list for PBXNativeTarget "MachaoUITests" */;
 			buildPhases = (
+				F60B55A9427BB52DCBA3E065 /* [CP] Check Pods Manifest.lock */,
 				A6440C742588A162001DE999 /* Sources */,
 				A6440C752588A162001DE999 /* Frameworks */,
 				A6440C762588A162001DE999 /* Resources */,
@@ -255,6 +322,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0A52E999717AE3365221E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MachaoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		616D341A287C4DA7F5D76E66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60B55A9427BB52DCBA3E065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machao-MachaoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6440C502588A161001DE999 /* Sources */ = {
@@ -437,11 +573,13 @@
 		};
 		A6440C822588A162001DE999 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE5DABAF79A0474FD1A843D /* Pods-Machao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Machao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,17 +587,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.Machao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A6440C832588A162001DE999 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5338A450BBF4307FDAF5388F /* Pods-Machao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Machao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,12 +607,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.GlobalShare.Machao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		A6440C852588A162001DE999 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A48F38415C5F5C6BA536FA /* Pods-MachaoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +635,7 @@
 		};
 		A6440C862588A162001DE999 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D1D152776B429F6CBC024C /* Pods-MachaoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +657,7 @@
 		};
 		A6440C882588A162001DE999 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E805D2AE73168ED89EE935FA /* Pods-Machao-MachaoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +677,7 @@
 		};
 		A6440C892588A162001DE999 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D638F036C6A5DEE829CC857F /* Pods-Machao-MachaoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
